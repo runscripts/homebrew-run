@@ -2,8 +2,8 @@ require "formula"
 
 class Run < Formula
   homepage "http://runscripts.org"
-  url "https://github.com/runscripts/run/archive/0.2.0.tar.gz"
-  sha1 "6c3a2cc25bc20330f66651edd16956f6324dc7dd"
+  url "https://github.com/runscripts/run/archive/0.3.4.tar.gz"
+  sha1 "bb2367f952d1c75569912830254842c37fa4f617"
   head "https://github.com/runscripts/run.git"
 
   depends_on "go" => :build
