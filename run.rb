@@ -14,7 +14,7 @@ class Run < Formula
     system "go", "build", "-o", "run"
     bin.install "run"
     etc.install "run.conf"
-    ("run").mkpath
+    (HOMEBREW_PREFIX+"run").mkpath
   end
 
   test do
