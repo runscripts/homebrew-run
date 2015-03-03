@@ -11,8 +11,3 @@ brew tap tobegit3hub/homebrew-run
 brew install run
 ```
 
-Or make it simple.
-
-```
-brew install https://raw.githubusercontent.com/tobegit3hub/homebrew-run/master/run.rb
-```
