@@ -1,5 +1,3 @@
-require "formula"
-
 class Run < Formula
   homepage "http://runscripts.org"
   url "https://github.com/runscripts/run/archive/0.3.6.tar.gz"
@@ -18,6 +16,6 @@ class Run < Formula
   end
 
   test do
-    system "#{bin}/run", "--help"
+    system "#{bin}/run", "pt-summary"
   end
 end
